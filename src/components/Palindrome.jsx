@@ -18,7 +18,7 @@ const Palindrome = () => {
             <h3>Palabras Palindromes</h3>
               <hr />
             {
-               resultado ?  <div class="alert alert-primary" role="alert">
+               resultado ?  <div className="alert alert-primary" role="alert">
                 {resultado}
               </div> : null
             }
